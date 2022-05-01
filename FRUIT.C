@@ -1,7 +1,7 @@
 //Fruit Shop Management Program in C by Ved Asawa, Avneesh Jagtap and Arya Maddel
 #include <stdio.h>	//Include Header files
 #include <conio.h>
-struct fruit		//Fuit Structure
+struct fruit		//Fruit Structure
 {
 	int code;
 	int quantity;
@@ -18,11 +18,11 @@ clrscr();
 	printf("\n\n-----------------------------------------------------");
 	printf("\n|Item Number\t|\tFruit\t   |\tPrice\t    |");
 	printf("\n-----------------------------------------------------");
-	printf("\n|\t1\t|\tBanana     |\tRs.40/Dozen |");
-	printf("\n|\t2\t|\tOranges    |\tRs.100/Kg   |");
-	printf("\n|\t3\t|\tApple      |\tRs.200/Kg   |");
-	printf("\n|\t4\t|\tWatermellon|\tRs.20/Kg    |");
-	printf("\n|\t5\t|\tGuava      |\tRs.60/Kg    |");
+	printf("\n|\t1.\t|\tBanana     |\tRs.40/Dozen |");
+	printf("\n|\t2.\t|\tOranges    |\tRs.100/Kg   |");
+	printf("\n|\t3.\t|\tApple      |\tRs.200/Kg   |");
+	printf("\n|\t4.\t|\tWatermellon|\tRs.20/Kg    |");
+	printf("\n|\t5.\t|\tGuava      |\tRs.60/Kg    |");
 	printf("\n-----------------------------------------------------");
 
 	printf("\n\nHow many fruits you have to order : ");
@@ -70,15 +70,15 @@ clrscr();
 	}
 	printf("\n-------------------------------------------");		//Final Bill
 	clrscr();
-	printf("\n-------------------------------------------");
-	printf("\nYour Reciept");
-	printf("\n\n-----------------------------------------------------------------------------");
-	printf("\n|Item Number\t|\tFruit\t 	|\tQuantity\t|\tPrice\t    |");
-	printf("\n-----------------------------------------------------------------------------");
-	printf("\n|\t1\t|\tBanana     |\t%.2f\t|\t%.2f\t|",f1,f1*3.33);
-	printf("\n|\t2\t|\tOranges    |\t%.2f\t|\t%.2f\t|",f2,f2*0.1);
-	printf("\n|\t3\t|\tApple      |\t%.2f\t|\t%.2f\t|",f3,f3*0.2);
-	printf("\n|\t4\t|\tWatermellon|\t%.2f\t|\t%.2f\t|",f4,f4*0.02);
-	printf("\n|\t5\t|\tGuava      |\t%.2f\t|\t%.2f\t|",f5,f5*0.06);
+	printf("\n--------------------------------------------------------------------------------");
+	printf("Your Reciept\n");
+	printf("--------------------------------------------------------------------------------");
+	printf("|Item Number\t|\tFruit\t  |\tQuantity|\tPrice\t|\n");
+	printf("--------------------------------------------------------------------------------");
+	printf("\n|\t1.\t|\tBanana     |\t%.2f\t|\t%.2f\t|", f1, f1 * 3.33);
+	printf("\n|\t2.\t|\tOranges    |\t%.2f\t|\t%.2f\t|", f2, f2 * 0.1);
+	printf("\n|\t3.\t|\tApple      |\t%.2f\t|\t%.2f\t|", f3, f3 * 0.2);
+	printf("\n|\t4.\t|\tWatermelon |\t%.2f\t|\t%.2f\t|", f4, f4 * 0.02);
+	printf("\n|\t5.\t|\tGuava      |\t%.2f\t|\t%.2f\t|", f5, f5 * 0.06);
 getch();
 }
