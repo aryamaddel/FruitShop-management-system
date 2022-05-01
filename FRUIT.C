@@ -28,7 +28,7 @@ clrscr();
 	printf("\n\nHow many fruits you have to order : ");
 	scanf("%d", &n);
 
-	for (i=0;i<n;i++)					//Condition
+	for (i = 0;i < n; i++)					//Condition
 	{
 		printf("\nEnter Item Number : ");
 		scanf("%d", &a);
@@ -75,10 +75,10 @@ clrscr();
 	printf("\n\n-----------------------------------------------------------------------------");
 	printf("\n|Item Number\t|\tFruit\t   |\tQuantity\t|\tPrice\t    |");
 	printf("\n-----------------------------------------------------------------------------");
-	printf("\n|\t1\t|\tBanana     |\t%.2f  \t|\t.%.2\t|",f1,f1*3.33);
-	printf("\n|\t2\t|\tOranges    |\t.%.2f\t|\t.%.2f\t|",f2,f2*0.1);
-	printf("\n|\t3\t|\tApple      |\t.%.2f\t|\t.%.2f\t|",f3,f3*0.2);
-	printf("\n|\t4\t|\tWatermellon|\t.%.2f\t|\t.%.2f\t|",f4,f4*0.02);
-	printf("\n|\t5\t|\tGuava      |\t.%.2f\t|\t.%.2f\t|",f5,f5*0.06);
+	printf("\n|\t1\t|\tBanana     |\t%.2f \t|\t%.2\t|",f1,f1*3.33);
+	printf("\n|\t2\t|\tOranges    |\t%.2f\t|\t%.2f\t|",f2,f2*0.1);
+	printf("\n|\t3\t|\tApple      |\t%.2f\t|\t%.2f\t|",f3,f3*0.2);
+	printf("\n|\t4\t|\tWatermellon|\t%.2f\t|\t%.2f\t|",f4,f4*0.02);
+	printf("\n|\t5\t|\tGuava      |\t%.2f\t|\t%.2f\t|",f5,f5*0.06);
 getch();
 }
