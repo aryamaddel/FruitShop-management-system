@@ -53,7 +53,7 @@ clrscr();
 	}
 	else if (a==4)
 	{
-		printf("Grams of Watermellon = ");
+		printf("Grams of Watermelon = ");
 		scanf("%d",&fr[4].quantity);
 		f4=fr[4].quantity;
 	}
@@ -81,7 +81,7 @@ clrscr();
 	printf("\n|\t4.\t|\tWatermelon |\t%.2f\t|\t%.2f\t|", f4, f4 * 0.02);
 	printf("\n|\t5.\t|\tGuava      |\t%.2f\t|\t%.2f\t|", f5, f5 * 0.06);
 	printf("\n-----------------------------------------------------------------");
-	printf("\t\tTotal Amount = Rs.%.2f", ((f1*3.33)+(f2*0.1)+(f3*0.2)+(f4*0.02)+(f5*0.06)));
+	printf("\t\tTotal Amount = Rs.%.2f\n", ((f1*3.33)+(f2*0.1)+(f3*0.2)+(f4*0.02)+(f5*0.06)));
 	printf("\nThanks you for shopping with us!");
 getch();
 }
