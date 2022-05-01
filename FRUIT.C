@@ -12,7 +12,7 @@ void main()
 int i, n, h, a;		//Variable Declaration
 float f1, f2, f3, f4 ,f5;
 clrscr();
-	printf("\t\t\t\Welcome to our Fruit Shop");		//User Interface
+	printf("\t\t\tWelcome to our Fruit Shop");		//User Interface
 	printf("\n\n\nToday in our shop we are selling : ");
 
 	printf("\n\n-----------------------------------------------------");
