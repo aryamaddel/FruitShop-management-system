@@ -1,5 +1,5 @@
 //Fruit Shop Management Program in C by Ved Asawa, Avneesh Jagtap and Arya Maddel
-#include <conio.h>	//Include Header files
+#include <stdio.h>	//Include Header files
 #include <conio.h>
 struct fruit		//Fuit Structure
 {
