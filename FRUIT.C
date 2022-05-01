@@ -7,7 +7,7 @@ struct fruit // Fruit Structure
 	int quantity;
 } fr[5];
 
-void main()
+int main()
 {
 	int i, n, h, a; // Variable Declaration
 	float f1, f2, f3, f4, f5;
@@ -84,4 +84,5 @@ void main()
 	printf("\t\tTotal Amount = Rs.%.2f\n", ((f1 * 3.33) + (f2 * 0.1) + (f3 * 0.2) + (f4 * 0.02) + (f5 * 0.06)));
 	printf("\nThanks you for shopping with us!");
 	getch();
+	return 0;
 }
